@@ -208,6 +208,11 @@ New way
 
 ## Consumers
 
+    Takes in one parameter and returns a void. It has 2 methods
+    
+    1. accept -> This is an abstract method, which takes in 1 parameter.
+    2. andThen -> this is default method
+    
 ### Example 1
 
     package com.arun.functionInterface.consumer;
